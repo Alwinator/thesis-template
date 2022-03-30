@@ -18,7 +18,7 @@ An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis w
 
 ## [Example PDFs](https://github.com/Alwinator/thesis-template/releases)
 
-### Known Restrictions
+## Known Restrictions
 - Build and Tested for **Ubuntu 20.04**
 - The build process also works on macOS, the watcher does not
 - A had a limited amount of time to build this template, I know that there could be a lot of things improved.
