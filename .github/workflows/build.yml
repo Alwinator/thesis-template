@@ -1,0 +1,39 @@
+name: Build thesis
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: asciidoctor/docker-asciidoctor:1.16
+    steps:
+      - name: Install git lfs
+        run: apk add --update --no-cache git-lfs python3 python3-dev py3-pip py3-numpy py3-numpy-dev gcc g++
+
+      - name: Install asciidoctor-lists
+        run: gem install asciidoctor-lists
+
+      - name: Asciidoctor-diagrams patch
+        run: git clone https://github.com/Alwinator/asciidoctor-diagram /tmp/asciidoctor-diagram
+
+      - name: Update pip packages
+        run: pip3 install --upgrade pip setuptools wheel
+
+      - name: Install pip packages
+        run: pip3 install diagrams graphviz-py matplotlib
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          lfs: true
+
+      - name: Create build directory
+        run: mkdir -p /work/build
+
+      - name: Build PDF
+        run: chmod +x ./scripts/asciidoc-to-pdf.sh && ./scripts/asciidoc-to-pdf.sh
+        shell: bash
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: thesis
+          path: /work/build

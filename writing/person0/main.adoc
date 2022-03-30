@@ -1,0 +1,66 @@
+=== Abstract
+Hello World
+
+=== Heading 1
+Hello World
+
+==== My Cite
+This is a citation. cite:[CRAFT]
+
+==== A formula
+latexmath:[\qquad \frac{a}{b} = 438]
+
+==== A diagram
+.My graphviz-py Diagram (Source: {author_1})
+[graphviz_py, format=svg]
+----
+include::../diagrams/example.py.dot[]
+----
+
+// A page break
+<<<
+
+==== A table
+.My new Table (Source: {author_1})
+[cols="1,1"]
+|===
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+
+|Cell in column 1, row 3
+|Cell in column 2, row 3
+|===
+
+=== Heading 2
+Hello World
+
+.A matplotlib Diagram (Source: {author_1})
+[graphviz_py, format=svg]
+----
+include::../diagrams/matplotlib_example.py.dot[]
+----
+
+=== Heading 3
+Hello World
+
+.My SVG image (Source: {author_1})
+image::./person0/example.svg[width=100%]
+
+.My JPG image (Source: {author_1})
+image::./person0/example.jpg[]
+
+=== Heading X
+Hello World
+
+.My Python Code (Source: {author_1})
+[source,python,linenums=implicit]
+----
+if True:
+    print("Hello World")
+----
+
+=== Conclusion
+Hello World

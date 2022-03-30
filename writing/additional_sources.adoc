@@ -1,0 +1,14 @@
+== Additional Sources & Information
+Writing Tools::
+- https://asciidoctor.org/[Asciidoctor], MIT License
+- https://github.com/asciidoctor/asciidoctor-bibtex[asciidoctor-bibtex], Open Works License 0.9.2
+- https://github.com/asciidoctor/asciidoctor-diagram[asciidoctor-diagram], MIT License
+- https://github.com/Alwinator/asciidoctor-lists[asciidoctor-lists], Mozilla Public License 2.0
+- https://github.com/asciidoctor/asciidoctor-mathematical[asciidoctor-mathematical], MIT License
+- https://github.com/asciidoctor/asciidoctor-pdf[asciidoctor-pdf], MIT License
+- https://github.com/asciidoctor/docker-asciidoctor[docker-asciidoctor], MIT License
+- https://github.com/Alwinator/graphviz-py[graphviz-py], Mozilla Public License 2.0
+
+Font:: https://fonts.google.com/specimen/Roboto[Roboto], Apache License 2.0
+
+Another Source:: My text

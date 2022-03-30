@@ -1,0 +1,10 @@
+== Abstract
+=== English
+// max. 3700 characters
+This is our English abstract.
+
+<<<
+
+=== Deutsch
+// max. 3700 characters
+Das ist unser deutscher Abstract.

@@ -1,0 +1,24 @@
+[.text-center]
+Diploma Thesis
+
+image::logos/spengergasse.svg[width=50%, role="noborder"]
+
+[.text-center]
+in cooperation with
+
+image::logos/company_logo.svg[width=50%, role="noborder"]
+
+[.text-center]
+supervised by +
+**Your teacher**
+
+'''
+
+Submission Note
+
+Date: [REPLACE WITH DATE]
+
+Signature:
+
+'''
+

@@ -1,0 +1,19 @@
+# Graphviz-py supports dynamic calculation in Python, see https://github.com/Alwinator/graphviz-py
+
+graph python_graph {
+{{
+import math
+
+value = 0.5
+sin = math.sin(value)
+cos = math.cos(value)
+}}
+
+A [label="{{= value }}"];
+B [label="{{= sin }}"];
+C [label="{{= cos }}"];
+
+A -- B [headlabel="sin"];
+A -- C [headlabel="cos"];
+
+}

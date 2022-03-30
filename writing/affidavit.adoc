@@ -1,0 +1,19 @@
+[discrete]
+== Eidesstattliche Erklärung
+Ich erkläre an Eides statt, dass ich die vorliegende Diplomarbeit selbständig und
+ohne fremde Hilfe verfasst, andere als die angegebenen Quellen und Hilfsmittel
+nicht benutzt und die den benutzten Quellen wörtlich und inhaltlich
+entnommenen Stellen als solche erkenntlich gemacht habe
+
+[discrete]
+=== Wien, am [REPLACE WITH DATE]
+
+[discrete]
+==== {author_1} (Project Lead)
+image::signatures/signature.svg[width=200, role="noborder", align="left"]
+
+[discrete]
+==== {author_2}
+image::signatures/signature.svg[width=200, role="noborder", align="left"]
+
+...

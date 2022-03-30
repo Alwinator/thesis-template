@@ -1,0 +1,4 @@
+== Glossary
+// SORT BY ABC, https://wordcounter.net/alphabetize
+A:: description
+HW:: Hello World

@@ -1,0 +1,93 @@
+= My Thesis Title
+Test Name <example@example.com>; Another Test Name <another@example.com>
+2021 / 2022
+ifdef::printed-version[]
+:notitle:
+:pdf-theme: assets/theme-printed.yml
+endif::[]
+ifndef::printed-version[]
+:pdf-theme: assets/theme.yml
+endif::[]
+:doctype: book
+:chapter-signifier:
+:toc: macro
+:toclevels: 2
+:math:
+:stem: latexmath
+:mathematical-format: svg
+:imagesdir: images
+:outdir: writing
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+:sectnumlevels: 3
+:pdf-fontsdir: assets/fonts
+:bibtex-file: assets/bibtex/bibtex.bib
+:bibtex-order: alphabetical
+:bibtex-style: apa
+:title-separator: :
+:table-stripes: odd
+:source-highlighter: coderay
+:coderay-linenums-mode: inline
+:listing-caption: Code
+
+
+include::cover.adoc[]
+
+<<<
+
+include::declaration.adoc[]
+
+<<<
+
+include::affidavit.adoc[]
+
+<<<
+
+toc::[]
+
+<<<
+:sectnums:
+
+include::abstract.adoc[]
+
+<<<
+
+include::title/person0.adoc[]
+
+<<<
+
+include::person0/main.adoc[]
+
+<<<
+
+include::title/person1.adoc[]
+
+<<<
+
+include::person1/main.adoc[]
+
+<<<
+
+include::pre-documents/main.adoc[]
+
+<<<
+
+include::glossary.adoc[]
+
+== List of figures
+list-of::image[enhanced_rendering=true]
+
+== List of tables
+list-of::table[enhanced_rendering=true]
+
+== List of code snippets
+list-of::listing[enhanced_rendering=true]
+
+== Bibliography
+bibliography::[]
+
+<<<
+
+include::additional_sources.adoc[]
+
+

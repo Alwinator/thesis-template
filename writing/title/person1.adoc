@@ -1,0 +1,17 @@
+ifdef::printed-version[]
+{blank}
+
+<<<
+
+endif::[]
+
+'''
+
+[author={author_2}]
+== The Title of author 2
+
+[discrete]
+[.text-center]
+=== {author_2}
+
+'''
