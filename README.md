@@ -1,5 +1,6 @@
 # Thesis Template
 [![Build](https://github.com/Alwinator/thesis-template/actions/workflows/build.yml/badge.svg)](https://github.com/Alwinator/thesis-template/actions/workflows/build.yml)
+[![Stars](https://img.shields.io/github/stars/Alwinator/thesis-template)](https://github.com/Alwinator/thesis-template)
 
 An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis. Which features auch as Local Docker Build, Remote Builds, [matplotlib](https://matplotlib.org/) and [graphviz-py](https://github.com/Alwinator/graphviz-py) diagram support, and many more.
 
