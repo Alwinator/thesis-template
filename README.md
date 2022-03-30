@@ -16,6 +16,11 @@ An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis w
 - Citation support using bibtex
 - Formulas using Latexmath
 
+## Planned Features
+- Add Windows Support (See #1)
+- Add more options (to disable certain features)
+- Add more documentation
+
 ## [Example PDFs](https://github.com/Alwinator/thesis-template/releases)
 
 ## Known Restrictions
