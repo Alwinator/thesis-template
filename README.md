@@ -29,6 +29,8 @@ I know that this template is not perfect, however it is a good start and can be 
 
 ## Getting Started
 ### Local Build
+Build local using Docker
+
 ```
 bash build.sh
 ```
@@ -42,9 +44,13 @@ bash build.sh skip
 ```
 
 ### Remote Build
+Build after each commit and saves the generated PDF files as GitHub artifacts.
+
 Just push and download the latest build from [here](https://github.com/Alwinator/thesis-template/actions/workflows/build.yml).
 
 ### Watcher (Ubuntu only)
+The watcher automatically monitors you files and automatically rebuild and refreshes the PDF when the build is done.
+
 #### Install
 ```
 sudo apt-get install inotify-tools xdotool
