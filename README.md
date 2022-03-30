@@ -1,6 +1,8 @@
 # Thesis Template
 [![Build](https://github.com/Alwinator/thesis-template/actions/workflows/build.yml/badge.svg)](https://github.com/Alwinator/thesis-template/actions/workflows/build.yml)
 
+An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis. Which features auch as Local Docker Build, Remote Builds, [matplotlib](https://matplotlib.org/) and [graphviz-py](https://github.com/Alwinator/graphviz-py) diagram support, and many more.
+
 ## Features
 - Local Builds as PDF
 - Automatically rebuild PDF on change
@@ -12,7 +14,6 @@
 - Printed & PDF optimized version
 - Citation support using bibtex
 - Formulas using Latexmath
-- Author name in the footer
 
 ## Disclaimer
 I know that this template is not perfect, however it is a good start and can be adjusted to your needs.
@@ -20,6 +21,8 @@ I know that this template is not perfect, however it is a good start and can be 
 ### Known Restrictions
 - Build and Tested for **Ubuntu 20.04**
 - The build process also works on macOS, the watcher does not
+- A had a limited amount of time to build this template, I know that there could be a lot of things improved.
+- Pull Requests are welcome!
 
 ## Getting Started
 ### Local Build
