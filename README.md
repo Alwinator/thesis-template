@@ -18,9 +18,6 @@ An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis w
 
 ## [Example PDFs](https://github.com/Alwinator/thesis-template/releases)
 
-## Disclaimer
-I know that this template is not perfect, however it is a good start and can be adjusted to your needs.
-
 ### Known Restrictions
 - Build and Tested for **Ubuntu 20.04**
 - The build process also works on macOS, the watcher does not
