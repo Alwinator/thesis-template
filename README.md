@@ -17,15 +17,14 @@ An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis w
 - Formulas using LatexMath
 
 ## Planned Features
-- Add Windows Support (See #1)
 - Add more options (to disable certain features)
 - Add more documentation
 
 ## [Example PDFs](https://github.com/Alwinator/thesis-template/releases)
 
 ## Known Restrictions
-- Build and Tested for **Ubuntu 20.04**
-- The build process also works on macOS, the watcher does not
+- Tested on **Ubuntu 20.04** and **Windows 10**
+- The watcher only works on Ubuntu
 - A had a limited amount of time to build this template, I know that there could be a lot of things improved.
 - Pull Requests are welcome!
 
@@ -43,7 +42,7 @@ Build local using Docker
 ```
 3. The built PDFs can be found in the [build](./build) folder.
 
-#### Linux
+#### Linux & MacOS
 1. Run `build.sh` using the terminal:
 ```
 bash build.sh
