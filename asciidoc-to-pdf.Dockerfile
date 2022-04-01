@@ -11,4 +11,5 @@ USER docker-user
 WORKDIR /work
 RUN mkdir scripts
 COPY scripts/* /work/scripts/
+RUN sed -i 's/\r$//' /work/scripts/asciidoc-to-pdf.sh
 CMD ["/bin/bash", "/work/scripts/asciidoc-to-pdf.sh"]

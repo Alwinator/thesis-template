@@ -8,13 +8,13 @@ An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis w
 - Local Builds as PDF
 - Automatically rebuild PDF on change
 - Automated Remote Builds after a commit using GitHub Actions
-- Compartible with an Austrian HTL Diplomarbeit (NO WARRANTIES)
+- Compatible with an Austrian HTL Diplomarbeit (NO WARRANTIES)
 - Based on Asciidoctor
 - Dynamically render matplotlib and graphviz-py diagrams
 - Docker Support
 - Printed & PDF optimized version
 - Citation support using bibtex
-- Formulas using Latexmath
+- Formulas using LatexMath
 
 ## Planned Features
 - Add Windows Support (See #1)
@@ -30,20 +30,34 @@ An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis w
 - Pull Requests are welcome!
 
 ## Getting Started
+Before pulling make sure you have [git lfs](https://git-lfs.github.com/) installed.
+
 ### Local Build
 Build local using Docker
 
+#### Windows
+1. Make sure Docker Desktop is running
+2. Run `build.bat` by double-clicking it or by using the terminal:
+```
+.\build.bat
+```
+3. The built PDFs can be found in the [build](./build) folder.
+
+#### Linux
+1. Run `build.sh` using the terminal:
 ```
 bash build.sh
 ```
-#### Docker Settings
-Make sure that you can execute Docker without sudo.
-> https://askubuntu.com/a/477554/1226233
+2. The built PDFs can be found in the [build](./build) folder.
 
 #### If you want to skip the docker container build use:
 ```
 bash build.sh skip
 ```
+
+#### Common errors
+Make sure that you can execute Docker without sudo.
+> https://askubuntu.com/a/477554/1226233
 
 ### Remote Build
 Build after each commit and saves the generated PDF files as GitHub artifacts.
