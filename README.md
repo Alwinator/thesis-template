@@ -8,42 +8,55 @@ An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis w
 - Local Builds as PDF
 - Automatically rebuild PDF on change
 - Automated Remote Builds after a commit using GitHub Actions
-- Compartible with an Austrian HTL Diplomarbeit (NO WARRANTIES)
+- Compatible with an Austrian HTL Diplomarbeit (NO WARRANTIES)
 - Based on Asciidoctor
 - Dynamically render matplotlib and graphviz-py diagrams
 - Docker Support
 - Printed & PDF optimized version
 - Citation support using bibtex
-- Formulas using Latexmath
+- Formulas using LatexMath
 
 ## Planned Features
-- Add Windows Support (See #1)
 - Add more options (to disable certain features)
 - Add more documentation
 
 ## [Example PDFs](https://github.com/Alwinator/thesis-template/releases)
 
 ## Known Restrictions
-- Build and Tested for **Ubuntu 20.04**
-- The build process also works on macOS, the watcher does not
+- Tested on **Ubuntu 20.04** and **Windows 10**
+- The watcher only works on Ubuntu
 - A had a limited amount of time to build this template, I know that there could be a lot of things improved.
 - Pull Requests are welcome!
 
 ## Getting Started
+Before pulling make sure you have [git lfs](https://git-lfs.github.com/) installed.
+
 ### Local Build
 Build local using Docker
 
+#### Windows
+1. Make sure Docker Desktop is running
+2. Run `build.bat` by double-clicking it or by using the terminal:
+```
+.\build.bat
+```
+3. The built PDFs can be found in the [build](./build) folder.
+
+#### Linux & MacOS
+1. Run `build.sh` using the terminal:
 ```
 bash build.sh
 ```
-#### Docker Settings
-Make sure that you can execute Docker without sudo.
-> https://askubuntu.com/a/477554/1226233
+2. The built PDFs can be found in the [build](./build) folder.
 
 #### If you want to skip the docker container build use:
 ```
 bash build.sh skip
 ```
+
+#### Common errors
+Make sure that you can execute Docker without sudo.
+> https://askubuntu.com/a/477554/1226233
 
 ### Remote Build
 Build after each commit and saves the generated PDF files as GitHub artifacts.

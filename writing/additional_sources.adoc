@@ -1,4 +1,6 @@
 == Additional Sources & Information
+Template:: https://github.com/Alwinator/thesis-template[Alwinator/thesis-template], Apache License 2.0
+
 Writing Tools::
 - https://asciidoctor.org/[Asciidoctor], MIT License
 - https://github.com/asciidoctor/asciidoctor-bibtex[asciidoctor-bibtex], Open Works License 0.9.2
