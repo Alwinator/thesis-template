@@ -16,6 +16,8 @@ An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis w
 - Citation support using bibtex
 - Formulas using LatexMath
 
+For faster builds, there is also a [lite version](https://github.com/Alwinator/thesis-template/tree/lite) available which has no [matplotlib](https://matplotlib.org/) and [graphviz-py](https://github.com/Alwinator/graphviz-py) diagram support.
+
 ## Planned Features
 - Add more options (to disable certain features)
 - Add more documentation
