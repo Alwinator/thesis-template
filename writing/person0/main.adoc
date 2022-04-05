@@ -10,13 +10,6 @@ This is a citation. cite:[CRAFT]
 ==== A formula
 latexmath:[\qquad \frac{a}{b} = 438]
 
-==== A diagram
-.My graphviz-py Diagram (Source: {author_1})
-[graphviz_py, format=svg]
-----
-include::../diagrams/example.py.dot[]
-----
-
 // A page break
 <<<
 
@@ -36,12 +29,6 @@ include::../diagrams/example.py.dot[]
 
 === Heading 2
 Hello World
-
-.A matplotlib Diagram (Source: {author_1})
-[graphviz_py, format=svg]
-----
-include::../diagrams/matplotlib_example.py.dot[]
-----
 
 === Heading 3
 Hello World

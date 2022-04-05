@@ -15,7 +15,7 @@ export PYTHONPATH=$PYTHONPATH:$(pwd)/writing/diagrams
 
 echo "Building PDF version..."
 asciidoctor-pdf \
--r /tmp/asciidoctor-diagram/lib/asciidoctor-diagram.rb \
+-r asciidoctor-diagram \
 -r asciidoctor-mathematical \
 -r asciidoctor-bibtex \
 -r asciidoctor-lists \
@@ -26,7 +26,7 @@ cp thesis.pdf /work/build/
 
 echo "Building printed version..."
 asciidoctor-pdf \
--r /tmp/asciidoctor-diagram/lib/asciidoctor-diagram.rb \
+-r asciidoctor-diagram \
 -r asciidoctor-mathematical \
 -r asciidoctor-bibtex \
 -r asciidoctor-lists \

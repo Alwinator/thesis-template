@@ -6,19 +6,10 @@ jobs:
     container: asciidoctor/docker-asciidoctor:1.16
     steps:
       - name: Install git lfs
-        run: apk add --update --no-cache git-lfs python3 python3-dev py3-pip py3-numpy py3-numpy-dev gcc g++
+        run: apk add --update --no-cache git-lfs
 
       - name: Install asciidoctor-lists
         run: gem install asciidoctor-lists
-
-      - name: Asciidoctor-diagrams patch
-        run: git clone https://github.com/Alwinator/asciidoctor-diagram /tmp/asciidoctor-diagram
-
-      - name: Update pip packages
-        run: pip3 install --upgrade pip setuptools wheel
-
-      - name: Install pip packages
-        run: pip3 install diagrams graphviz-py matplotlib
 
       - name: Checkout repository
         uses: actions/checkout@v2

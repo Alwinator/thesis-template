@@ -10,7 +10,6 @@ An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis w
 - Automated Remote Builds after a commit using GitHub Actions
 - Compatible with an Austrian HTL Diplomarbeit (NO WARRANTIES)
 - Based on Asciidoctor
-- Dynamically render matplotlib and graphviz-py diagrams
 - Docker Support
 - Printed & PDF optimized version
 - Citation support using bibtex
