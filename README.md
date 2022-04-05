@@ -1,8 +1,10 @@
-# Thesis Template
+# Thesis Template (Lite Version)
 [![Build](https://github.com/Alwinator/thesis-template/actions/workflows/build.yml/badge.svg)](https://github.com/Alwinator/thesis-template/actions/workflows/build.yml)
 [![Stars](https://img.shields.io/github/stars/Alwinator/thesis-template)](https://github.com/Alwinator/thesis-template)
 
-An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis with features such as Local Docker Builds, Remote Builds, [matplotlib](https://matplotlib.org/) and [graphviz-py](https://github.com/Alwinator/graphviz-py) diagram support, and many more.
+An [Asciidoctor](https://asciidoctor.org/) template for an Austrian HTL thesis with features such as Local Docker Builds, Remote Builds, diagram support, and many more.
+
+This is the lite version, if you want [matplotlib](https://matplotlib.org/) and [graphviz-py](https://github.com/Alwinator/graphviz-py) diagram support, check out the [main](https://github.com/Alwinator/thesis-template) branch.
 
 ## Features
 - Local Builds as PDF
