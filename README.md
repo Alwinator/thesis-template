@@ -59,7 +59,7 @@ Make sure that you can execute Docker without sudo.
 > https://askubuntu.com/a/477554/1226233
 
 ### Remote Build
-Build after each commit and saves the generated PDF files as GitHub artifacts.
+Builds after each commit and saves the generated PDF files as GitHub artifacts.
 
 Just push and download the latest build from [here](https://github.com/Alwinator/thesis-template/actions/workflows/build.yml).
 
