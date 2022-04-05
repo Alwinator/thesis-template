@@ -1,6 +1,6 @@
 @echo off
 echo Preparing build...
-rmdir /Q /S build
+if exist build rmdir /Q /S build
 
 echo Building asciidoc-to-pdf docker container...
 docker build -f asciidoc-to-pdf.Dockerfile -t thesis-ascii-to-pdf . || goto :error
