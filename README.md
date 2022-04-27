@@ -8,9 +8,9 @@ This is the lite version, if you want [matplotlib](https://matplotlib.org/) and 
 
 ## Features
 - Local Builds as PDF
-- Automatically rebuild PDF on change
+- Automatically rebuilds PDF on change
 - Automated Remote Builds after a commit using GitHub Actions
-- Compatible with an Austrian HTL Diplomarbeit (NO WARRANTIES)
+- Compatible with an Austrian HTL Diplomarbeit (NO GUARANTEES)
 - Based on Asciidoctor
 - Docker Support
 - Printed & PDF optimized version
@@ -26,11 +26,11 @@ This is the lite version, if you want [matplotlib](https://matplotlib.org/) and 
 ## Known Restrictions
 - Tested on **Ubuntu 20.04** and **Windows 10**
 - The watcher only works on Ubuntu
-- A had a limited amount of time to build this template, I know that there could be a lot of things improved.
+- I had a limited amount of time to build this template, I know that there are a lot of things that could be improved.
 - Pull Requests are welcome!
 
 ## Getting Started
-Before pulling make sure you have [git lfs](https://git-lfs.github.com/) installed.
+Before pulling, make sure you have [git lfs](https://git-lfs.github.com/) installed.
 
 ### Local Build
 Build local using Docker
@@ -50,7 +50,7 @@ bash build.sh
 ```
 2. The built PDFs can be found in the [build](./build) folder.
 
-#### If you want to skip the docker container build use:
+#### If you want to skip the Docker container build, you can use:
 ```
 bash build.sh skip
 ```
@@ -65,7 +65,7 @@ Build after each commit and saves the generated PDF files as GitHub artifacts.
 Just push and download the latest build from [here](https://github.com/Alwinator/thesis-template/actions/workflows/build.yml).
 
 ### Watcher (Ubuntu only)
-The watcher automatically monitors you files and automatically rebuild and refreshes the PDF when the build is done.
+The watcher automatically monitors your files and automatically rebuilds and refreshes the PDF when the build is complete.
 
 #### Install
 ```
@@ -87,5 +87,5 @@ See [Graphviz Gallery](https://graphviz.org/gallery/) and [graphviz-py](https://
 ### Quotes
 1. Use BibTeX
 2. You can also use [Zotero](https://www.zotero.org) and export BibTeX
-3. Add your bibtex into [bibtex.bib](assets/bibtex/bibtex.bib)
+3. Add your bibtex to [bibtex.bib](assets/bibtex/bibtex.bib)
 4. Quote in your text: See [Asciidoctor-bibtex Macros](https://github.com/asciidoctor/asciidoctor-bibtex#macros)
